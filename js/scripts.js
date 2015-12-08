@@ -26,4 +26,16 @@ jQuery(document).ready(function(){
 		});
 	});
 
+	jQuery(".chkTermos").each(function(){
+		var obj = jQuery(this);
+		obj.parents(".formularios").find(".btnSubmit").hide();
+		obj.click(function(){
+			if ( jQuery(this).is(':checked') ){
+				jQuery(this).parents(".formularios").find(".btnSubmit").show();
+			}else{
+				jQuery(this).parents(".formularios").find(".btnSubmit").hide();
+			}
+		})
+	})
+
 });
