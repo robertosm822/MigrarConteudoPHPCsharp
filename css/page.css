@@ -366,6 +366,23 @@
   color: #afbac2;
   font-weight: bold;
 }
+.formularios h3 {
+  padding: 0 15px 40px 15px;
+  font-family: 'Museo', sans-serif;
+  line-height: 18px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #566875;
+  font-weight: bold;
+}
+.formularios p.subtitle {
+  padding: 0 15px 20px 15px;
+  font-family: 'Museo', sans-serif;
+  line-height: 16px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #566875;
+}
 .formularios .fullSize {
   padding: 15px;
   width: 740px;
@@ -395,7 +412,7 @@
   width: 204.5px;
 }
 .formularios .form-group {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
   position: relative;
 }
 .formularios .form-group p.example {
@@ -440,6 +457,32 @@
   cursor: pointer;
   margin: 74px 0 0 0;
 }
+.formularios .boxAcept{
+  padding:20px;
+  background:#e1e1e1;
+}
+.formularios .boxAcept .ovfAuto{
+  overflow:auto;
+  height:300px;
+}
+.formularios .boxAcept .ovfAuto .regulamento{
+  background:#fff;
+}
+.formularios .boxAcept .checkbox{
+  padding:40px 0 20px 0;
+}
+.formularios .regBtn .btnSubmit{
+  margin:0;
+}
+.formularios p.minText{
+  padding: 0 15px 20px 15px;
+  font-family: 'Museo', sans-serif;
+  line-height: 16px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #afbac2;
+}
+
 /*
 	Campos de formulário
 */
